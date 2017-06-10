@@ -1,0 +1,5 @@
+{
+  "name": "preact-simple-template",
+  "version": "0.0.1",
+  "description": "Used by preact-starter to init new Preact projects from the simplest starting point."
+}
