@@ -2,7 +2,6 @@
   "name": "preact-simple-template",
   "version": "0.0.2",
   "description": "Used by preact-starter to init new Preact projects from the simplest starting point.",
-  "devDependencies": {},
   "dependencies": {
     "es6-object-assign": "^1.1.0",
     "preact-deep-force-update": "^0.1.0"
