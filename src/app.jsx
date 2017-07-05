@@ -1,7 +1,7 @@
 import { h } from 'preact';
 
 // App as stateless functional component.
-const App = props => (
+const App = () => (
   <div id="app">
     <p>Preact app running!</p>
   </div>

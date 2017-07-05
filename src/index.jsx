@@ -4,7 +4,7 @@ import { h, render } from 'preact';
 import deepForceUpdate from 'preact-deep-force-update';
 
 import { version } from '../package.json';
-import App from './App';
+import App from './app';
 
 // Save the App component to refresh it later.
 let app = null;
@@ -19,10 +19,8 @@ window.refresh = () => {
 
 // Ensure that DOM has loaded to render the app.
 document.addEventListener('DOMContentLoaded', () => {
-  render(
-    <App ref={handleAppRef} />,
-    document.getElementById('root')
-  );
+  const rootEl = document.getElementById('root');
+  render(<App ref={handleAppRef} />, rootEl);
 });
 
 // Log the app's version (from package).
