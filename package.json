@@ -1,7 +1,7 @@
 {
   "name": "preact-simple-template",
-  "version": "0.0.2",
-  "description": "Used by preact-starter to init new Preact projects from the simplest starting point.",
+  "version": "0.1.0",
+  "description": "Used by preact-init to start new Preact projects from the simplest starting point.",
   "private": true,
   "scripts": {
 		"start": "preact-roller start",
@@ -14,9 +14,9 @@
     "preact-deep-force-update": "^0.1.0"
   },
   "devDependencies": {
-    "@renemonroy/preact-roller": "*"
+    "preact-roller": "*"
   },
 	"eslintConfig": {
-    "extends": "./node_modules/@renemonroy/preact-roller/config/.eslintrc"
+    "extends": "./node_modules/preact-roller/config/.eslintrc"
   }
 }
