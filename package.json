@@ -14,9 +14,9 @@
     "preact-deep-force-update": "^0.1.0"
   },
   "devDependencies": {
-    "@churris/preact-roller": "*"
+    "@renemonroy/preact-roller": "*"
   },
 	"eslintConfig": {
-    "extends": "./node_modules/@churris/preact-roller/config/.eslintrc"
+    "extends": "./node_modules/@renemonroy/preact-roller/config/.eslintrc"
   }
 }
