@@ -2,6 +2,11 @@
   "name": "preact-simple-template",
   "version": "0.0.2",
   "description": "Used by preact-starter to init new Preact projects from the simplest starting point.",
+  "private": true,
+  "scripts": {
+		"start": "preact-roller start",
+		"build": "preact-roller build"
+  },
   "dependencies": {
     "es6-object-assign": "^1.1.0",
     "preact": "^8.1.0",
@@ -11,8 +16,7 @@
   "devDependencies": {
     "@churris/preact-roller": "*"
   },
-  "scripts": {
-		"start": "preact-roller start",
-		"build": "preact-roller build"
+	"eslintConfig": {
+    "extends": "./node_modules/@churris/preact-roller/config/.eslintrc"
   }
 }
