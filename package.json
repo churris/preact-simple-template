@@ -10,5 +10,9 @@
   },
   "devDependencies": {
     "@churris/preact-roller": "*"
+  },
+  "scripts": {
+		"start": "preact-roller start",
+		"build": "preact-roller build"
   }
 }
